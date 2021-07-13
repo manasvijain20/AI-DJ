@@ -1,6 +1,4 @@
 
-  }
-
 song = "";
 leftwrist_y_score = 0;
 rightwrist_y_score = 0;
@@ -71,7 +69,7 @@ function gotPoses(results){
     }
 }
 function preload(){
-    song = loadSound("music.mp4");
+    song = loadSound("music.mp3");
 }
 function play(){
     song.play();
